@@ -17,7 +17,7 @@ La structure des données est la suivante :
         {
             "en" : "animal telepathy",
             "fr" : "télépathie avec les animaux",
-            "descr-fr" : "pouvoir psionique",
+            "type" : "aptitude psionique",
             "source" : "Eldritch Wizardry",
             "dd-version" : 0
         },
