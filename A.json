@@ -1,0 +1,34 @@
+{
+    "glossary-a" :
+    [
+        {
+            "en" : "animal telepathy",
+            "fr" : "télépathie avec les animaux",
+            "descr-fr" : "pouvoir psionique",
+            "source" : "Eldritch Wizardry",
+            "dd-version" : 0
+        },
+        {
+            "en" : "astral projection",
+            "fr" : "projection astrale",
+            "descr-fr" : "aptitude psionique",
+            "source" : "Eldritch Wizardry",
+            "dd-version" : 0            
+        },
+        {
+            "en" : "aura alteration",
+            "fr" : "altération de l'aura",
+            "descr-fr" : "aptitude psionique",
+            "source" : "Eldritch Wizardry",
+            "dd-version" : 0
+        },
+        {
+            "en" : "",
+            "fr" : "",
+            "descr-fr" : "",
+            "source" : "Eldritch Wizardry",
+            "dd-version" : 0
+        }
+    ]
+}
+    
