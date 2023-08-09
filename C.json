@@ -1,5 +1,7 @@
 {
-    "glossary-c" :
+    "version" : 1,
+    "letter" : "c",
+    "glossary" :
     [
         {
             "en" : "carrion crawler",
@@ -9,7 +11,7 @@
             "dd-version" : 0
         },
         {
-            "en" : "celle adjustmentl",
+            "en" : "cell adjustment",
             "fr" : "ajustement cellulaire",
             "type" : "aptitude psionique",
             "source" : "Eldritch Wizardry",

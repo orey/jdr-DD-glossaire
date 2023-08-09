@@ -12,7 +12,9 @@ La structure des données est la suivante :
 
 ```
 {
-    "glossary-a" :
+    "version" : 1,
+    "letter" : "a",
+    "glossary" :
     [
         {
             "en" : "animal telepathy",

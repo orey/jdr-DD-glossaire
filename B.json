@@ -1,5 +1,7 @@
 {
-    "glossary-b" :
+    "version" : 1,
+    "letter" : "b",
+    "glossary" :
     [
         {
             "en" : "blink dog",

@@ -1,5 +1,7 @@
 {
-    "glossary-a" :
+    "version" : 1,
+    "letter" : "a",
+    "glossary" :
     [
         {
             "en" : "animal telepathy",
@@ -19,13 +21,6 @@
             "en" : "aura alteration",
             "fr" : "altération de l'aura",
             "type" : "aptitude psionique",
-            "source" : "Eldritch Wizardry",
-            "dd-version" : 0
-        },
-        {
-            "en" : "",
-            "fr" : "",
-            "type" : "",
             "source" : "Eldritch Wizardry",
             "dd-version" : 0
         }
