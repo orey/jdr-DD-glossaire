@@ -1,0 +1,34 @@
+{
+    "glossary-b" :
+    [
+        {
+            "en" : "blink dog",
+            "fr" : "chien esquiveur",
+            "descr-fr" : "monstre",
+            "source" : "Greyhawk",
+            "dd-version" : 0
+        },
+        {
+            "en" : "body control",
+            "fr" : "contrôle du corps",
+            "descr-fr" : "aptitude psionique",
+            "source" : "Eldritch Wizardry",
+            "dd-version" : 0            
+        },
+        {
+            "en" : "body equilibrium",
+            "fr" : "changer le poids du corps",
+            "descr-fr" : "aptitude psionique",
+            "source" : "Eldritch Wizardry",
+            "dd-version" : 0
+        },
+        {
+            "en" : "body weaponry",
+            "fr" : "corps comme arme",
+            "descr-fr" : "aptitude psionique",
+            "source" : "Eldritch Wizardry",
+            "dd-version" : 0
+        }
+    ]
+}
+    
