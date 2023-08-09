@@ -31,7 +31,7 @@ def format_md(parsed,output):
         typ = e[TYPE]
         source = e[SOURCE]
         ddv = e[DDVERSION]
-        output.write("*" + en.capitalize() + "* : " + fr + ". " + typ.capitalize() + ". D&D version " + str(ddv) + "\n\n")    
+        output.write("**" + en.capitalize() + "** : " + fr + ". " + typ.capitalize() + ". D&D version " + str(ddv) + "\n\n")    
         
 
 
