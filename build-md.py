@@ -14,11 +14,27 @@ LETTER = "letter"
 GLOSSARY = "glossary"
 
 # Record grammar
-EN = "en"
-FR = "fr"
+EN = "en" # array
+FR = "fr" # array
 TYPE = "type"
-SOURCE = "source"
-DDVERSION = "dd-version"
+SOURCE = "source" #array
+
+STYLE_EN = 1 # string.title() for every word capitalization
+STYLE_FR = 2 # no capitalization but could be string.capitalize()
+
+def format_elem(tab, style=STYLE_FR):
+    siz = len(tab)
+    count = 1
+    result = ""
+    for e in tab:
+        if style == STYLE_EN:
+            result = result + e.title()
+        else:
+            result = result + e
+        if siz != count:
+            result = result + ", "
+        count +=1
+    return result
 
 
 def format_md(parsed,output):
@@ -30,9 +46,12 @@ def format_md(parsed,output):
         fr = e[FR]
         typ = e[TYPE]
         source = e[SOURCE]
-        ddv = e[DDVERSION]
-        output.write("**" + en.capitalize() + "** : " + fr + ". " + typ.capitalize() + ". D&D version " + str(ddv) + "\n\n")    
-        
+        output.write("**" + format_elem(en, STYLE_EN) + "** : "
+                     + format_elem(fr) + ". "
+                     + typ.capitalize()
+                     + ". Sources : "
+                     + format_elem(source)
+                     + ".\n\n")
 
 
 if __name__ == "__main__":
@@ -40,10 +59,11 @@ if __name__ == "__main__":
     with open("GLOSSAIRE.md", "w") as output:
         output.write("# GLOSSAIRE D&D\n\n")
         output.write("Généré le " + str(datetime.now()) + "\n\n")
-        for f in files:
+        for f in sorted(files):
+            print("Treating " + str(f))
             with open(f, "r") as user_file:
                 file_contents = user_file.read()
-                print(file_contents)
+                #print(file_contents)
                 parsed = json.loads(file_contents)
                 format_md(parsed,output)
 

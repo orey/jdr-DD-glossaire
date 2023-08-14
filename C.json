@@ -4,32 +4,34 @@
     "glossary" :
     [
         {
-            "en" : "carrion crawler",
-            "fr" : "charognard rampant",
+            "en" : [ "carrion crawler" ],
+            "fr" : [ "charognard rampant" ],
             "type" : "monstre",
-            "source" : "Greyhawk",
-            "dd-version" : 0
+            "source" : [ "OD&D GreyHawk" ]
         },
         {
-            "en" : "cell adjustment",
-            "fr" : "ajustement cellulaire",
+            "en" : [ "cell adjustment" ],
+            "fr" : [ "ajustement cellulaire" ],
             "type" : "aptitude psionique",
-            "source" : "Eldritch Wizardry",
-            "dd-version" : 0            
+            "source" : [ "OD&D Eldritch Wizardry" ]
         },
         {
-            "en" : "clairaudience",
-            "fr" : "clairaudience",
+            "en" : [ "clairaudience" ],
+            "fr" : [ "clairaudience" ],
             "type" : "aptitude psionique",
-            "source" : "Eldritch Wizardry",
-            "dd-version" : 0
+            "source" : [ "OD&D Eldritch Wizardry" ]
         },
         {
-            "en" : "control weather",
-            "fr" : "contrôle du climat",
+            "en" : [ "clairvoyance" ],
+            "fr" : [ "clairvoyance" ],
+            "type" : "aptitude psionique",
+            "source" : [ "OD&D Eldritch Wizardry" ]
+        },
+        {
+            "en" : [ "control weather" ],
+            "fr" : [ "contrôle du climat" ],
             "type" : "sort",
-            "source" : "Greyhawk",
-            "dd-version" : 0
+            "source" : [ "OD&D GreyHawk" ]
         }
     ]
 }

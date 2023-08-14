@@ -17,12 +17,11 @@ La structure des données est la suivante :
     "glossary" :
     [
         {
-            "en" : "animal telepathy",
-            "fr" : "télépathie avec les animaux",
-            "type" : "aptitude psionique",
-            "source" : "Eldritch Wizardry",
-            "dd-version" : 0
-        },
+            "en" : [ "animal telepathy" ],
+            "fr" : [ "télépathie avec les animaux", "télépathie animale" ],
+            "type" : "pouvoir psionique",
+            "source" : [ "OD&D Eldritch Wizardry" ]
+        }
     ]
 }
 ```
@@ -32,4 +31,8 @@ Cela pour chaque lettre.
 A noter que tout doit être en minuscule (anglais et français), cela pour permettre aux robots d'inclure facilement les textes et de faire la capitalisation qui leur convient. En effet, en français, si l'on capitalise trop vite, on risque de faire disparaître les accents.
 
 Un programme python simple de conversion convertit tout cela en .md.
+
+## Glossaire
+
+[GLOSSAIRE](GLOSSAIRE.md)
 
