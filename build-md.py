@@ -59,8 +59,8 @@ def format_md(parsed,output):
 
 if __name__ == "__main__":
     files = glob.glob('*.json')
-    with open("GLOSSAIRE.md", "w") as output:
-        output.write("# GLOSSAIRE D&D\n\n")
+    with open(NOM_GLOSSAIRE, "w") as output:
+        output.write("# GLOSSAIRE DONJONS & DRAGONS\n\n")
         output.write("Généré le " + str(datetime.now()) + "\n\n")
         for f in sorted(files):
             print("Treating " + str(f))
