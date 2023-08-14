@@ -8,6 +8,9 @@ import glob
 import json
 from datetime import datetime
 
+#GLOBAL
+NOM_GLOSSAIRE = "GLOSSAIRE_DONJONS_ET_DRAGONS.md"
+
 # Global grammar
 VERSION = "version"
 LETTER = "letter"

@@ -34,5 +34,5 @@ Un programme python simple de conversion convertit tout cela en .md.
 
 ## Glossaire
 
-[GLOSSAIRE](GLOSSAIRE.md)
+[GLOSSAIRE DONJONS & DRAGONS](GLOSSAIRE_DONJONS_ET_DRAGONS.md)
 
